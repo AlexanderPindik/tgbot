@@ -1,0 +1,355 @@
+Microsoft Windows [Version 6.1.7601]
+(c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.
+
+D:\Users\admin>cd..
+
+D:\Users>cd..
+
+D:\>cd nodejs8
+
+D:\nodejs8>cd tgbot
+
+D:\nodejs8\tgbot>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (tgbot)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to D:\nodejs8\tgbot\package.json:
+
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes)
+
+
+   ?─────────────────────────────────────?
+   │                                     │
+   │   Update available 5.6.0 → 6.0.1    │
+   │       Run npm i npm to update       │
+   │                                     │
+   ?─────────────────────────────────────?
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+^C
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+^C
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+^C
+D:\nodejs8\tgbot>node ./index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+^C
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+^C
+D:\nodejs8\tgbot>node
+> index.js
+ReferenceError: index is not defined
+>
+(To exit, press ^C again or type .exit)
+>
+
+D:\nodejs8\tgbot>npm install --save request
+npm WARN tgbot@1.0.0 No description
+npm WARN tgbot@1.0.0 No repository field.
+
++ request@2.87.0
+updated 1 package in 13.123s
+
+D:\nodejs8\tgbot>npm install --save request-promise-native
+npm WARN tgbot@1.0.0 No description
+npm WARN tgbot@1.0.0 No repository field.
+
++ request-promise-native@1.0.5
+added 1 package in 8.609s
+
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+^C
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+^C
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMED
+OUT 149.154.167.220:443"}
+^C
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+{ message_id: 12,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1527084148,
+  text: '/stop',
+  entities: [ { offset: 0, length: 5, type: 'bot_command' } ] }
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+{ message_id: 14,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1527084220,
+  text: '/hi',
+  entities: [ { offset: 0, length: 3, type: 'bot_command' } ] }
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+^C
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+{ message_id: 17,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1527085706,
+  text: '/hi',
+  entities: [ { offset: 0, length: 3, type: 'bot_command' } ] }
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+{ message_id: 19,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1527085726,
+  text: 'привет' }
+^C
+D:\nodejs8\tgbot>node index.js
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises
+is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+{ message_id: 21,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1527085829,
+  text: 'здорово' }
+error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 409 Conflict: t
+erminated by other getUpdates request; make sure that only one bot instance is r
+unning"}
+^C
+D:\nodejs8\tgbot>node index.js

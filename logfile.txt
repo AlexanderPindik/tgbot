@@ -1,0 +1,1191 @@
+
+
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMEDOUT 149.154.167.220:443"}
+error: [polling_error] {"code":"EFATAL","message":"EFATAL: Error: connect ETIMEDOUT 149.154.167.220:443"}
+^CЗавершить выполнение пакетного файла [Y(да)/N(нет)]? y
+
+D:\nodejs8\tgbot>d:\nodejs8\nodemon rose_slon.js
+[nodemon] 1.17.5
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 757,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531293918,
+  text: '/helpme',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 757,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531293918,
+  text: '/helpme',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 760,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531293934,
+  text: '/audio3',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+node-telegram-bot-api deprecated Buffers will have their filenames default to "filename" instead of "data". See https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#sending-files for more information on how sending files has been improved and on how to disable this deprecation message altogether. rose_slon.js:156:6
+node-telegram-bot-api deprecated In the future, content-type of files you send will default to "application/octet-stream". See https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#sending-files for more information on how sending files has been improved and on how to disable this deprecation message altogether. rose_slon.js:156:6
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 764,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531294088,
+  text: '/helpme',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 764,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531294088,
+  text: '/helpme',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 767,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531294095,
+  text: '/myfortune',
+  entities: [ { offset: 0, length: 10, type: 'bot_command' } ] }
+Чудеса случаются. Особенно если над ними хорошо поработать...
+{ message_id: 769,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531294100,
+  text: '/myfortune',
+  entities: [ { offset: 0, length: 10, type: 'bot_command' } ] }
+Скоро ты приобретешь две новых привычки и избавишься от одной.
+^CЗавершить выполнение пакетного файла [Y(да)/N(нет)]? y
+
+D:\nodejs8\tgbot>d:\nodejs8\nodemon rose_slon.js
+[nodemon] 1.17.5
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+D:\nodejs8\tgbot\rose_slon.js:343
+});
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+Message sent: <5479aa2f-05b6-1966-af44-78b6423d62ee@gmail.com>
+Preview URL: https://ethereal.email/message/W0XAxRU2gQynn8XpW0XAycIXUAz71lbGAAAAAREvgSGefpBqKz7sbUtFXBA
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 771,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531298144,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+error: [polling_error] {}
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+D:\nodejs8\tgbot\rose_slon.js:78
+            user: nngucosgjfnpt2yy@ethereal.email, // generated ethereal user
+                                  ^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 773,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531298375,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <a2b326bf-c094-2caf-ed16-f4c0b5199c8d@gmail.com>
+Preview URL: https://ethereal.email/message/W0XBvhVUhwyoivEaW0XCS16cBAz1pdhnAAAAAfIQ2.1z3G0EYMqEBkgb0m8
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 775,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531298638,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <5c9e9a1b-9711-c254-5e4f-1456731359a5@mail.ru>
+Preview URL: https://ethereal.email/message/W0XBvhVUhwyoivEaW0XDjcIXUAz71leSAAAAAs7aLmlW6ZCAjPix1iiy5oE
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 777,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531298999,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <b563898d-1207-324f-3f63-ad389da37586@mail.ru>
+Preview URL: https://ethereal.email/message/W0XBvhVUhwyoivEaW0XEuV6cBAz1pdlEAAAAAz1ir4WO5tlx8vTq6gihWl0
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 779,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531299145,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 781,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531299281,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+{ message_id: 783,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299360,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+{ message_id: 785,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299361,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+{ Error: socket hang up
+    at TLSSocket.onHangUp (_tls_wrap.js:1137:19)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at TLSSocket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  code: 'ECONNECTION',
+  path: undefined,
+  host: 'smtp.ethereal.email',
+  port: 465,
+  localAddress: undefined,
+  command: 'CONN' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 787,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299421,
+  text: '/helpmy',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 789,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299445,
+  text: '/myfortune',
+  entities: [ { offset: 0, length: 10, type: 'bot_command' } ] }
+Готовьтесь к романтическим приключениям.
+{ message_id: 791,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299450,
+  text: '/helpmy',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 793,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531299541,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <b529310c-3f6c-f54b-f6da-b5625dd63c7f@mail.ru>
+Preview URL: https://ethereal.email/message/W0XBvhVUhwyoivEaW0XG2sIXUAz71li3AAAABGqrmBAGB.FKHpO1l7GJfIU
+{ message_id: 795,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299633,
+  text: '/help',
+  entities: [ { offset: 0, length: 5, type: 'bot_command' } ] }
+{ message_id: 797,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299680,
+  text: '/helpmi',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 799,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299690,
+  text: '/helpme',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 799,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299690,
+  text: '/helpme',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 802,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299707,
+  text: '/hi',
+  entities: [ { offset: 0, length: 3, type: 'bot_command' } ] }
+Ты обворожительна!)
+{ message_id: 805,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299719,
+  text: '/bricks',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+node-telegram-bot-api deprecated Buffers will have their filenames default to "filename" instead of "data". See https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#sending-files for more information on how sending files has been improved and on how to disable this deprecation message altogether. rose_slon.js:158:6
+node-telegram-bot-api deprecated In the future, content-type of files you send will default to "application/octet-stream". See https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#sending-files for more information on how sending files has been improved and on how to disable this deprecation message altogether. rose_slon.js:158:6
+{ message_id: 807,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531299751,
+  text: '/wehappy',
+  entities: [ { offset: 0, length: 8, type: 'bot_command' } ] }
+{ message_id: 809,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531299889,
+  text: '/helpme',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 809,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531299889,
+  text: '/helpme',
+  entities: [ { offset: 0, length: 7, type: 'bot_command' } ] }
+{ message_id: 812,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531300383,
+  text: '/hi',
+  entities: [ { offset: 0, length: 3, type: 'bot_command' } ] }
+Привет, красавица )
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 815,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531300706,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <bf3ff185-aec8-c40a-26ae-ea2d1b757d5c@km.ru>
+Preview URL: https://ethereal.email/message/W0XBvhVUhwyoivEaW0XLZcIXUAz71lo3AAAABb-E8-aSGMqA4GACvJBd2XY
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+rs
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 817,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531302892,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+{ Error: Invalid login: 534-5.7.9 Please log in with your web browser and then try again. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired f17-v6sm17089949wrs.46 - gsmtp
+    at SMTPConnection._formatError (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:606:19)
+    at SMTPConnection._actionAUTHComplete (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:1335:34)
+    at SMTPConnection._responseActions.push.str (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:366:26)
+    at SMTPConnection._processResponse (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:762:20)
+    at SMTPConnection._onData (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:558:14)
+    at TLSSocket._socket.on.chunk (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:510:47)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at TLSSocket.Readable.push (_stream_readable.js:208:10)
+    at TLSWrap.onread (net.js:607:20)
+  code: 'EAUTH',
+  response: '534-5.7.9 Please log in with your web browser and then try again. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired f17-v6sm17089949wrs.46 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN' }
+{ message_id: 819,
+  from:
+   { id: 402792085,
+     is_bot: false,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     language_code: 'ru' },
+  chat:
+   { id: 402792085,
+     first_name: 'Kiseleva',
+     last_name: 'Mariia',
+     type: 'private' },
+  date: 1531303107,
+  text: '/af5',
+  entities: [ { offset: 0, length: 4, type: 'bot_command' } ] }
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 821,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531303406,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+{ Error: Invalid login: 535 Authentication failed. Please verify your account by going to https://e.mail.ru/login?email=rest_curu@mail.ru
+    at SMTPConnection._formatError (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:606:19)
+    at SMTPConnection._actionAUTHComplete (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:1335:34)
+    at SMTPConnection._responseActions.push.str (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:366:26)
+    at SMTPConnection._processResponse (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:762:20)
+    at SMTPConnection._onData (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:558:14)
+    at TLSSocket._socket.on.chunk (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:510:47)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at TLSSocket.Readable.push (_stream_readable.js:208:10)
+    at TLSWrap.onread (net.js:607:20)
+  code: 'EAUTH',
+  response: '535 Authentication failed. Please verify your account by going to https://e.mail.ru/login?email=rest_curu@mail.ru',
+  responseCode: 535,
+  command: 'AUTH PLAIN' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 823,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531303729,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Error: Unexpected socket close
+    at Timeout.setTimeout [as _onTimeout] (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-transport\index.js:188:31)
+    at ontimeout (timers.js:482:11)
+    at Timer.unrefdHandle (timers.js:595:5)
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 825,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531303822,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+{ Error: Invalid login: 535 Authentication failed. Please verify your account by going to https://e.mail.ru/login?email=p-2006@km.ru
+    at SMTPConnection._formatError (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:606:19)
+    at SMTPConnection._actionAUTHComplete (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:1335:34)
+    at SMTPConnection._responseActions.push.str (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:366:26)
+    at SMTPConnection._processResponse (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:762:20)
+    at SMTPConnection._onData (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:558:14)
+    at TLSSocket._socket.on.chunk (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-connection\index.js:709:51)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at TLSSocket.Readable.push (_stream_readable.js:208:10)
+    at TLSWrap.onread (net.js:607:20)
+  code: 'EAUTH',
+  response: '535 Authentication failed. Please verify your account by going to https://e.mail.ru/login?email=p-2006@km.ru',
+  responseCode: 535,
+  command: 'AUTH PLAIN' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 827,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531303876,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Error: Unexpected socket close
+    at Timeout.setTimeout [as _onTimeout] (D:\nodejs8\tgbot\node_modules\nodemailer\lib\smtp-transport\index.js:188:31)
+    at ontimeout (timers.js:482:11)
+    at Timer.unrefdHandle (timers.js:595:5)
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 829,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531303932,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <70514a4a-0be1-c906-68ab-41e514b1352f@km.ru>
+Preview URL: false
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 831,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531304269,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+{ TypeError: Invalid non-string/buffer chunk
+    at validChunk (_stream_writable.js:254:10)
+    at PassThrough.Writable.write (_stream_writable.js:288:21)
+    at PassThrough.Writable.end (_stream_writable.js:563:10)
+    at Immediate.setImmediate (D:\nodejs8\tgbot\node_modules\nodemailer\lib\mime-node\index.js:954:46)
+    at runCallback (timers.js:794:20)
+    at tryOnImmediate (timers.js:752:5)
+    at processImmediate [as _immediateCallback] (timers.js:729:5) code: 'ESTREAM', command: 'API' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 833,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531304415,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+{ message_id: 833,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531304415,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <0c4a305e-ef28-6358-3aa2-f936cc52257c@km.ru>
+Preview URL: false
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 835,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531304557,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <3d2775dc-3c49-a7e4-c672-063e26a8bc82@km.ru>
+Preview URL: false
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+node-telegram-bot-api deprecated In the future, content-type of files you send will default to "application/octet-stream". See https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#sending-files for more information on how sending files has been improved and on how to disable this deprecation message altogether. rose_slon.js:469:7
+{ message_id: 837,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531305489,
+  text: '/s1',
+  entities: [ { offset: 0, length: 3, type: 'bot_command' } ] }
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+node-telegram-bot-api deprecated In the future, content-type of files you send will default to "application/octet-stream". See https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#sending-files for more information on how sending files has been improved and on how to disable this deprecation message altogether. rose_slon.js:469:7
+{ message_id: 839,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531305543,
+  text: '/s1',
+  entities: [ { offset: 0, length: 3, type: 'bot_command' } ] }
+Message sent: <1c644442-38a3-34bf-d9b7-d42c36811dab@km.ru>
+Preview URL: false
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+D:\nodejs8\tgbot\rose_slon.js:89
+        text: msg.text, msg.from.username // plain text body
+                           ^
+
+SyntaxError: Unexpected token .
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+D:\nodejs8\tgbot\rose_slon.js:89
+        text: msg.text msg.from.username, // plain text body
+                       ^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 841,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531307050,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <9130a9ba-88a8-080e-8556-8afd24c4208c@km.ru>
+Preview URL: false
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 843,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531307622,
+  text: '/start',
+  entities: [ { offset: 0, length: 6, type: 'bot_command' } ] }
+Message sent: <a1819be1-203f-a48b-d07d-bfe8cf8af24c@km.ru>
+Preview URL: false
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 845,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531308175,
+  text: '/myfortune',
+  entities: [ { offset: 0, length: 10, type: 'bot_command' } ] }
+Вас ждет приятный сюрприз.
+Message sent: <f6e4d054-5472-5bb1-5b86-ab543bc554be@km.ru>
+Preview URL: false
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+D:\nodejs8\tgbot\rose_slon.js:634
+/ Generate test SMTP service account from ethereal.email
+           ^^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node rose_slon.js`
+node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. module.js:652:30
+Bot is starting...............................
+{ message_id: 847,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531308822,
+  text: '/hi',
+  entities: [ { offset: 0, length: 3, type: 'bot_command' } ] }
+Здравствуй, милая...
+Message sent: <9790af0c-1f58-c040-174b-1b4bf6f91a7d@km.ru>
+Preview URL: false
+{ message_id: 850,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531310175,
+  text: '/myfortune',
+  entities: [ { offset: 0, length: 10, type: 'bot_command' } ] }
+Не позволяй плохим дням внушить тебе, что плоха сама жизнь
+Message sent: <1fccf291-b68a-adf5-60d7-ce2763ad884b@km.ru>
+Preview URL: false
+{ message_id: 852,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531310260,
+  text: '/help',
+  entities: [ { offset: 0, length: 5, type: 'bot_command' } ] }
+{ message_id: 854,
+  from:
+   { id: 248033241,
+     is_bot: false,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     language_code: 'ru' },
+  chat:
+   { id: 248033241,
+     first_name: 'Alexander',
+     username: 'AlexanderPindik',
+     type: 'private' },
+  date: 1531310292,
+  text: '/myfortune',
+  entities: [ { offset: 0, length: 10, type: 'bot_command' } ] }
+У тебя есть все, чтобы осуществить свою мечту прямо сейчас!
+Message sent: <bcdda821-6ad3-b987-73de-ea44729f0542@km.ru>
+Preview URL: false

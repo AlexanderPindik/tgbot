@@ -1,0 +1,561 @@
+612268838:AAFVkaY-dkfPACM5Idc85zKrVZPuL5xORHo
+612268838:AAHK5N7uY0w-rmFyQ9a_AGJnv-vB2L6N2Vs
+
+
+--------------------------------
+Account created
+Here you can find all the details needed to access your new Ethereal test account. Remember that if sending messages through SMTP then no message is actually delivered, all messages are caught and you can see these in the Messages page or by using your favorite IMAP/POP3 client.
+
+Account credentials
+NB! these credentials are shown only once. If you do not write these down then you have to create a new account.
+
+Username	nngucosgjfnpt2yy@ethereal.email (also works as a real inbound email address)	
+Password	wwggSqVsYbEssG2tBa
+------------------------------
+
+
+
+if(msg.text.toLowerCase()==='hello') {
+
+		bot.sendMessage(id, 'Hello, ' + msg.from.first_name)
+	}else {
+	bot.sendMessage(id, JSON.stringify(msg, null, 4))
+
+----------------------
+	bot.on('message', (msg)=> {
+	//console.log(msg)
+	const {id}= msg.chat
+
+	bot.sendMessage(id, JSON.stringify(msg, null, 4))
+	.then (() => {
+
+		console.log ('Сообщение отправлено')
+	})
+
+	.catch ((error) => {
+		console.error(error)
+	})
+});
+
+
+----------------------
+
+// /help
+bot.onText(/\/start/, msg =>{
+
+	const {id}= msg.chat
+	bot.sendMessage(id, JSON.stringify(msg, null, 4))
+})
+
+bot.onText(/\/help (.+)/, (msg, [source, match]) =>{
+
+	const {id}= msg.chat
+	bot.sendMessage(id, JSON.stringify(match, null, 4))
+
+})
+---------------------
+HTML
+
+bot.on('message', (msg)=> {
+	//console.log(msg)
+	const {id}= msg.chat
+
+	const html =`
+	<strong>Hello,  ${msg.from.first_name} </strong>
+	
+	<pre>
+	${debug(msg) }
+	</pre>
+	`
+
+	bot.sendMessage(id, html, {
+
+		parse_mode: 'HTML'
+	})
+	
+	})
+-------------------------------------------
+MarkDown
+bot.on('message', (msg)=> {
+
+	const markdown =`
+		*Hello, ${msg.from.first_name}*
+		_Italic text_
+	`
+	bot.sendMessage(msg.chat.id, markdown, {
+		parse_mode: 'Markdown'
+		})
+	})
+---------------------------------------
+
+bot.on('message', (msg)=> {
+
+	setTimeout(() => {
+			bot.sendMessage(msg.chat.id, `https://mpe.edu.ru`, {disable_web_page_preview:true, disable_notification:true})
+
+	}, 4000)
+	
+
+	})
+-------------------------------------
+клавиатура
+
+
+bot.on('message', (msg)=> {
+
+	const {id}= msg.chat
+	if (msg.text === 'Закрыть') {
+		bot.sendMessage(id, 'Закрываю клавиатуру', {
+			reply_markup: {
+				remove_keyboard:true
+			}
+		})
+
+	}else if (msg.text==='Ответить') {
+			bot.sendMessage(id, 'Отвечаю', {
+			reply_markup: {
+				force_reply:true
+			}
+		})
+
+	} else {
+
+
+	bot.sendMessage(id, ' Клавиатура', {
+		reply_markup: {
+			keyboard:[
+			[{
+				text:'Отправить местоположение',
+				request_location:true
+			}],
+			['Ответить', 'Закрыть'],
+			[{
+				text:'Отправить Контакты',
+				request_contact:true
+			}]
+			],
+			one_time_keyboard:true
+		}
+	})
+
+
+	}
+
+	
+
+	})
+-------------------------------------------
+inline клавиатура
+
+bot.on('message', (msg)=> {
+
+	const {id}= msg.chat
+	bot.sendMessage(id, 'Inline keyboard', {
+		reply_markup:{
+			inline_keyboard:[
+				[
+					{
+						text:'Google',
+						url:'https://google.com'
+					}
+				],
+				[
+					{
+						text:'Reply',
+						callback_data:'reply'
+					},
+					{
+						text:'Forward',
+						callback_data:'forward'
+					}
+				]
+			]
+		}
+	})
+	
+
+	})
+
+bot.on ('callback_query', query=> {
+//	bot.sendMessage(query.message.chat.id,debug(query))
+bot.answerCallbackQuery(query.id, `${query.data}`)
+})
+--------------------------------------
+
+Обработка инлайн запросов
+
+bot.on('inline_query', query =>{
+
+    const results =[]
+
+    for (let i=0; i<5; i++) {
+
+    	results.push ({
+    		type:'article',
+    		id:i.toString(),
+    		title: 'Title' + i,
+    		input_message_content:{
+    			message_text: `Article #${i+1}`
+    		}
+
+    	})
+    }
+
+	bot.answerInlineQuery(query.id, results, {
+		cache_time:0
+	})
+})
+--------------------------------------------------------
+Перенаправление сообщений  1 тема  forward
+
+const inline_keyboard = [
+	[
+		{
+			text:'Forward',
+			callback_data:'forward'
+		},
+		{
+	       text:'Reply',
+	       callback_data:'reply'
+		}
+
+	],
+
+	[
+		{
+			text:'Edit',
+			callback_data:'edit'
+		},
+		{
+			text:'Delete',
+			callback_data:'delete'
+		}
+
+	] ]
+
+bot.on('callback_query', query => {
+const {chat, message_id, text}= query.message
+switch (query.data) {
+	case 'forward':
+		// кудаб откуда, что - id чата
+		bot.forwardMessage(chat.id, chat.id, message_id)
+		break;
+	
+	}
+
+	bot.answerCallbackQuery({
+	callback_query_id:query.id
+
+	})
+
+})
+
+bot.onText(/\/start/, (msg, [source, match]) => {
+	const id=msg.chat.id
+	bot.sendMessage(id, 'Keyboard', {
+		reply_markup:{
+			 inline_keyboard	
+		}
+
+	})
+})
+----------------------------
+Перенаправление сообщений  2 тема  reply
+
+bot.on('callback_query', query => {
+const {chat, message_id, text}= query.message
+switch (query.data) {
+	case 'forward':
+		// кудаб откуда, что - id чата
+		bot.forwardMessage(chat.id, chat.id, message_id)
+		break;
+	case 'reply':
+		bot.sendMessage(chat.id, `Отвечаем на сообщение`, {
+
+			reply_to_message_id: message_id
+		})
+	break;
+	
+	}
+
+	bot.answerCallbackQuery({
+	callback_query_id:query.id
+
+	})
+
+})
+
+bot.onText(/\/start/, (msg, [source, match]) => {
+	const id=msg.chat.id
+	bot.sendMessage(id, 'Keyboard', {
+		reply_markup:{
+			 inline_keyboard	
+		}
+
+	})
+})
+------------------------
+Редактирование и удаление сообщений
+
+const inline_keyboard = [
+	[
+		{
+			text:'Forward',
+			callback_data:'forward'
+		},
+		{
+	       text:'Reply',
+	       callback_data:'reply'
+		}
+
+	],
+
+	[
+		{
+			text:'Edit',
+			callback_data:'edit'
+		},
+		{
+			text:'Delete',
+			callback_data:'delete'
+		}
+
+	] ]
+
+bot.on('callback_query', query => {
+const {chat, message_id, text}= query.message
+switch (query.data) {
+	case 'forward':
+		// кудаб откуда, что - id чата
+		bot.forwardMessage(chat.id, chat.id, message_id)
+		break;
+	case 'reply':
+		bot.sendMessage(chat.id, `Отвечаем на сообщение`, {
+
+			reply_to_message_id: message_id
+		})
+	break;
+
+	case 'edit':
+	bot.editMessageText(`${text}  (edited)`, {
+
+		chat_id: chat.id,
+		message_id: message_id,
+		reply_markup: { inline_keyboard}
+	})
+	break;
+
+	case 'delete':
+		bot.deleteMessage(chat.id, message_id)
+	break;
+	
+	}
+
+	bot.answerCallbackQuery({
+	callback_query_id:query.id
+
+	})
+
+})
+
+bot.onText(/\/start/, (msg, [source, match]) => {
+	const id=msg.chat.id
+	bot.sendMessage(id, 'Keyboard', {
+		reply_markup:{
+			 inline_keyboard	
+		}
+
+	})
+})
+-------------------------------
+
+const inline_keyboard = [
+	[
+		{
+			text:'Forward',
+			callback_data:'forward'
+		},
+		{
+	       text:'Reply',
+	       callback_data:'reply'
+		}
+
+	],
+
+	[
+		{
+			text:'Edit',
+			callback_data:'edit'
+		},
+		{
+			text:'Delete',
+			callback_data:'delete'
+		}
+
+	] ]
+
+bot.on('callback_query', query => {
+const {chat, message_id, text}= query.message
+switch (query.data) {
+	case 'forward':
+		// кудаб откуда, что - id чата
+		bot.forwardMessage(chat.id, chat.id, message_id)
+		break;
+	case 'reply':
+		bot.sendMessage(chat.id, `Отвечаем на сообщение`, {
+
+			reply_to_message_id: message_id
+		})
+	break;
+
+	case 'edit':
+	bot.editMessageText(`${text}  (edited)`, {
+
+		chat_id: chat.id,
+		message_id: message_id,
+		reply_markup: { inline_keyboard}
+	})
+	break;
+
+	case 'delete':
+		bot.deleteMessage(chat.id, message_id)
+	break;
+	
+	}
+
+	bot.answerCallbackQuery({
+	callback_query_id:query.id
+
+	})
+
+})
+
+bot.onText(/\/start/, (msg, [source, match]) => {
+	const id=msg.chat.id
+	bot.sendMessage(id, 'Keyboard', {
+		reply_markup:{
+			 inline_keyboard	
+		}
+
+	})
+})
+--------------------------------
+
+отсылка картинки
+
+
+bot.onText(/\/pic/, msg=>{
+	bot.sendPhoto(msg.chat.id, fs.readFileSync(__dirname+'/3mess.jpg'))
+
+})
+
+bot.onText(/\/pic2/, msg=>{
+	bot.sendPhoto(msg.chat.id, './3mess.jpg' , {
+		caption:'This is your message'
+	})
+
+})
+-------------------------------
+отправка аудио
+
+//bot.onText(/\/audio/, msg=>{
+//	bot.sendAudio(msg.chat.id, './mom.mp3')
+
+//})
+
+bot.onText(/\/audio2/, msg=>{
+
+	bot.sendMessage(msg.chat.id, 'Музыка загружается....')
+	fs.readFile(__dirname+'/mom.mp3', (err, data) => {
+	bot.sendAudio(msg.chat.id, data) .then (()=> {
+	bot.sendMessage(msg.chat.id, 'Музыка загружена!')
+
+	})
+
+
+	})
+
+//	bot.sendAudio(msg.chat.id, './mom.mp3')  первый вариант, не очень корректный не видно что идет загрузка
+
+})
+-------------------------------------
+отправка файлов
+
+bot.onText(/\/doc1/, msg=>{
+	bot.sendDocument(msg.chat.id, './sh.xls')
+
+
+
+})
+
+bot.onText(/\/doc2/, msg=>{
+
+bot.sendMessage(msg.chat.id, 'Файл загружается....')
+
+	fs.readFile(__dirname+'/sh.xls', (err, file) => {
+
+	bot.sendDocument(msg.chat.id, file, {
+		caption: 'очень нужный файл'
+	}
+
+		) .then ( ()=> {
+
+	bot.sendMessage(msg.chat.id, 'Файл загружен!')
+	}) 
+})
+
+})
+--------------------------------------
+отправка видео
+
+bot.onText(/\/v1/, msg=>{
+
+	bot.sendMessage(msg.chat.id, 'Видео загружается....')
+	bot.sendVideo(msg.chat.id, 'http://techslides.com/demos/sample-videos/small.mp4') // видео по ссылке
+
+
+	})
+
+bot.onText(/\/v2/, msg=>{
+
+	bot.sendMessage(msg.chat.id, 'Видео загружается....')
+	bot.sendVideo(msg.chat.id, './small.mp4')    // видео из локалки
+
+	})
+
+bot.onText(/\/v3/, msg=>{
+
+	bot.sendMessage(msg.chat.id, 'Видео загружается....')   // видео из локалки через файловый поток
+	 
+	  
+	 	fs.readFile(__dirname+'/small.mp4', (err, data) => {
+	 		
+	 		bot.sendVideo(msg.chat.id, data) .then (()=> {
+     		bot.sendMessage(msg.chat.id, 'Видео загружено!')
+
+			})
+		})
+})
+
+---------------------------------------
+
+отправка геолокации
+
+bot.onText(/\/loc/, msg=>{
+//59.941188, 30.277256  магнус из гугл мэпс
+bot.sendLocation(msg.chat.id, 59.941188, 30.277256)
+
+})
+--------------------------
+
+отправка контакта
+
+bot.onText(/\/contact/, msg=>{
+bot.sendContact(msg.chat.id, '89217504454', 'Alexander', {
+	last_name: 'Pink Slon'
+	})
+
+})
+
+------------------------------
+
